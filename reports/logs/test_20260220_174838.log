@@ -1,0 +1,18 @@
+2026-02-20 17:48:38 - tests.conftest - INFO - Setting up test environment...
+2026-02-20 17:48:38 - tests.conftest - INFO - Base URL: https://opensource-demo.orangehrmlive.com/
+2026-02-20 17:48:38 - tests.conftest - INFO - Headless mode: False
+2026-02-20 17:48:38 - tests.conftest - INFO - Browser: chromium
+2026-02-20 17:48:38 - tests.conftest - INFO - Starting test: test_admin_page_loads
+2026-02-20 17:49:02 - tests.conftest - INFO - Completed test: test_admin_page_loads
+2026-02-20 17:49:02 - tests.conftest - INFO - Starting test: test_search_user_by_username
+2026-02-20 17:49:57 - tests.conftest - INFO - Completed test: test_search_user_by_username
+2026-02-20 17:49:57 - tests.conftest - INFO - Starting test: test_search_user_empty_username
+2026-02-20 17:50:49 - tests.conftest - INFO - Completed test: test_search_user_empty_username
+2026-02-20 17:50:49 - tests.conftest - INFO - Starting test: test_admin_page_url
+2026-02-20 17:51:10 - tests.conftest - INFO - Completed test: test_admin_page_url
+2026-02-20 17:51:10 - tests.conftest - INFO - Starting test: test_admin_page_title
+2026-02-20 17:51:27 - tests.conftest - INFO - Completed test: test_admin_page_title
+2026-02-20 17:51:27 - tests.conftest - INFO - Starting test: test_admin_page_elements_visible
+2026-02-20 17:51:47 - tests.conftest - INFO - Completed test: test_admin_page_elements_visible
+2026-02-20 17:51:47 - tests.conftest - INFO - Starting test: test_search_and_verify_results
+2026-02-20 17:52:34 - tests.conftest - INFO - Completed test: test_search_and_verify_results

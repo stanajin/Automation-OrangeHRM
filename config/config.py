@@ -13,7 +13,7 @@ class Config:
     # Browser settings
     HEADLESS = os.getenv("HEADLESS", "True").lower() == "true"
     BROWSER_TYPE = os.getenv("BROWSER_TYPE", "chromium")
-    BASE_URL = os.getenv("BASE_URL", "https://opensource-demo.orangehrmlive.com/")
+    BASE_URL = os.getenv("BASE_URL", "https://opensource-demo.orangehrmlive.com")
 
     # Database settings
     MYSQL_HOST = os.getenv("MYSQL_HOST", "127.0.0.1")
