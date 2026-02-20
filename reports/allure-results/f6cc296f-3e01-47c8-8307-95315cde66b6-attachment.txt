@@ -1,0 +1,2 @@
+2026-02-20 15:15:16 - tests.conftest - INFO - Starting test: test_login_page_displayed
+2026-02-20 15:15:23 - tests.conftest - INFO - Completed test: test_login_page_displayed

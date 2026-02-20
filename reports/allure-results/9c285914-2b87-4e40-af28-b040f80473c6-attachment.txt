@@ -1,0 +1,6 @@
+2026-02-20 16:00:13 - tests.conftest - INFO - Setting up test environment...
+2026-02-20 16:00:13 - tests.conftest - INFO - Base URL: https://opensource-demo.orangehrmlive.com/
+2026-02-20 16:00:13 - tests.conftest - INFO - Headless mode: True
+2026-02-20 16:00:13 - tests.conftest - INFO - Browser: chromium
+2026-02-20 16:00:13 - tests.conftest - INFO - Starting test: test_logout_functionality
+2026-02-20 16:00:24 - tests.conftest - INFO - Completed test: test_logout_functionality

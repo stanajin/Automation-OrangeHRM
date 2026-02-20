@@ -1,0 +1,2 @@
+2026-02-20 11:06:53 - tests.conftest - INFO - Starting test: test_logout_functionality
+2026-02-20 11:07:35 - tests.conftest - INFO - Completed test: test_logout_functionality

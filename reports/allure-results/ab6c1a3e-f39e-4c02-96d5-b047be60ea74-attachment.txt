@@ -1,0 +1,93 @@
+2026-02-20 16:57:20 - tests.conftest - INFO - Setting up test environment...
+2026-02-20 16:57:20 - tests.conftest - INFO - Base URL: https://opensource-demo.orangehrmlive.com/
+2026-02-20 16:57:20 - tests.conftest - INFO - Headless mode: True
+2026-02-20 16:57:20 - tests.conftest - INFO - Browser: chromium
+2026-02-20 16:57:20 - tests.conftest - INFO - Starting test: test_logout_functionality
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\logging\__init__.py", line 1154, in emit
+    stream.write(msg + self.terminator)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 55: character maps to <undefined>
+Call stack:
+  File "c:\Users\nimba\.vscode\extensions\ms-python.python-2026.2.0-win32-x64\python_files\vscode_pytest\run_pytest_script.py", line 64, in <module>
+    pytest.main(arg_array)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\config\__init__.py", line 169, in main
+    ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\main.py", line 318, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\main.py", line 271, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\main.py", line 325, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\main.py", line 350, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 114, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 133, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 222, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 261, in call_runtest_hook
+    return CallInfo.from_call(
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 341, in from_call
+    result: Optional[TResult] = func()
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 262, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\runner.py", line 169, in pytest_runtest_call
+    item.runtest()
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pytest_asyncio\plugin.py", line 430, in runtest
+    super().runtest()
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\python.py", line 1792, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\_pytest\python.py", line 194, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "C:\Users\nimba\Automation-OrangeHRM\venv\Lib\site-packages\pytest_asyncio\plugin.py", line 887, in inner
+    _loop.run_until_complete(task)
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+  File "C:\Users\nimba\AppData\Local\Programs\Python\Python314\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\nimba\Automation-OrangeHRM\tests\ui\test_dashboard.py", line 28, in test_logout_functionality
+    logger.info("✓ Logout test passed")
+Message: '✓ Logout test passed'
+Arguments: ()
+2026-02-20 16:57:33 - tests.ui.test_dashboard - INFO - ✓ Logout test passed
+2026-02-20 16:57:34 - tests.conftest - INFO - Completed test: test_logout_functionality

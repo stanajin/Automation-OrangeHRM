@@ -1,0 +1,6 @@
+2026-02-20 15:50:48 - tests.conftest - INFO - Setting up test environment...
+2026-02-20 15:50:48 - tests.conftest - INFO - Base URL: https://opensource-demo.orangehrmlive.com/
+2026-02-20 15:50:48 - tests.conftest - INFO - Headless mode: True
+2026-02-20 15:50:48 - tests.conftest - INFO - Browser: chromium
+2026-02-20 15:50:48 - tests.conftest - INFO - Starting test: test_dashboard_url
+2026-02-20 15:50:54 - tests.conftest - INFO - Completed test: test_dashboard_url

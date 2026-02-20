@@ -1,0 +1,2 @@
+2026-02-20 15:59:27 - tests.conftest - INFO - Starting test: test_dashboard_page_title
+2026-02-20 15:59:37 - tests.conftest - INFO - Completed test: test_dashboard_page_title

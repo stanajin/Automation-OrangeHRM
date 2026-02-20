@@ -1,0 +1,4 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_set_authorization
+[32mINFO    [0m utils.api_client:api_client.py:25 Set header: Authorization
+[32mINFO    [0m tests.api.test_api:test_api.py:36 ✓ Set authorization test passed
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_set_authorization

@@ -1,0 +1,8 @@
+# Requirements file with all dependencies
+playwright==1.58.0
+pytest==7.4.4
+pytest-asyncio==0.23.3
+requests==2.31.0
+mysql-connector-python==8.2.0
+python-dotenv==1.0.0
+allure-pytest==2.13.2

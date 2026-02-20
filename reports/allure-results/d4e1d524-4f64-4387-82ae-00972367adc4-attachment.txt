@@ -1,0 +1,2 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_empty_username
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_empty_username
