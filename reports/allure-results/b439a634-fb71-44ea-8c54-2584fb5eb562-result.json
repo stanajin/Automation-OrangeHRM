@@ -1,0 +1,1 @@
+{"name": "test_admin_page_loads", "status": "skipped", "description": "Test that admin page loads successfully.", "start": 1771624669625, "stop": 1771624669625, "uuid": "244222e0-69f3-44fe-954e-799e20b5eb42", "testCaseId": "4c1070438b8e638efb724e70066bcc1f", "fullName": "tests.ui.test_admin.TestAdmin#test_admin_page_loads"}

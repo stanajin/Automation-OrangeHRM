@@ -5,9 +5,7 @@
         "tests",
         "-v"
     ],
-    "python.testing.autoTestDiscoverOnSaveEnabled": false,
-    "python.linting.enabled": false,
-    "[python]": {
-        "editor.defaultFormatter": false
-    }
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}",
+    "testing.automaticallyOpenPeekView": "never"
 }

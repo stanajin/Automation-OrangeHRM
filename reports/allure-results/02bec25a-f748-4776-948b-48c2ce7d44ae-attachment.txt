@@ -1,0 +1,3 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_invalid_credentials
+[32mINFO    [0m tests.ui.test_login:test_login.py:44 ✓ Invalid credentials test passed
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_invalid_credentials

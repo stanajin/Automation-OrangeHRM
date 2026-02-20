@@ -1,0 +1,3 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_api_headers_setup
+[32mINFO    [0m tests.api.test_api:test_api.py:23 ✓ API headers setup test passed
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_api_headers_setup

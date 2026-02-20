@@ -1,0 +1,4 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_simple_query
+[32mINFO    [0m utils.database:database.py:28 Attempting MySQL connection to 127.0.0.1:3306/orangehrm
+[31m[1mERROR   [0m utils.database:database.py:42 Error connecting to MySQL: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_simple_query

@@ -1,0 +1,3 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_admin_page_url
+[32mINFO    [0m tests.ui.test_admin:test_admin.py:61 ✓ Admin page URL test passed - URL: https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_admin_page_url

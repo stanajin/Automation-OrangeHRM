@@ -1,0 +1,2 @@
+2026-02-20 21:39:28 - tests.conftest - INFO - Starting test: test_admin_page_elements_visible
+2026-02-20 21:39:55 - tests.conftest - INFO - Completed test: test_admin_page_elements_visible

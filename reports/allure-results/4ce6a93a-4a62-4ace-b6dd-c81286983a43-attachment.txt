@@ -1,0 +1,3 @@
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_search_user_by_username
+[32mINFO    [0m tests.ui.test_admin:test_admin.py:38 ✓ User search by username test passed
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_search_user_by_username

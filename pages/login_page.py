@@ -14,7 +14,7 @@ class LoginPage(BasePage):
     USERNAME_INPUT = "//input[@name='username']"
     PASSWORD_INPUT = "//input[@name='password']"
     LOGIN_BUTTON = "//button[@type='submit']"
-    ERROR_MESSAGE = "//div[@class='oxd-alert-content--error']"
+    ERROR_MESSAGE = ".oxd-alert-content--error"  # CSS selector (more flexible)
     PAGE_TITLE = "//h5[@class='oxd-text oxd-text--h5 orangehrm-login-title']"
 
     async def enter_username(self, username: str):

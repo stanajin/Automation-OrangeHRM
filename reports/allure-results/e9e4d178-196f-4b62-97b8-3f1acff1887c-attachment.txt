@@ -1,0 +1,2 @@
+2026-02-20 21:37:11 - tests.conftest - INFO - Starting test: test_search_user_by_username
+2026-02-20 21:37:53 - tests.conftest - INFO - Completed test: test_search_user_by_username

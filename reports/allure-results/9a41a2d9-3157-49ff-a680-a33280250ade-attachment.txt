@@ -1,0 +1,7 @@
+[32mINFO    [0m tests.conftest:conftest.py:77 Setting up test environment...
+[32mINFO    [0m tests.conftest:conftest.py:78 Base URL: https://opensource-demo.orangehrmlive.com
+[32mINFO    [0m tests.conftest:conftest.py:79 Headless mode: False
+[32mINFO    [0m tests.conftest:conftest.py:80 Browser: chromium
+[32mINFO    [0m tests.conftest:conftest.py:86 Starting test: test_api_connection
+[32mINFO    [0m tests.api.test_api:test_api.py:17 ✓ API connection test passed
+[32mINFO    [0m tests.conftest:conftest.py:88 Completed test: test_api_connection
